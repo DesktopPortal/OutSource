@@ -1,0 +1,9 @@
+D:\work\xinyaohang\Applications\GatewayInterface\bin\Debug\netstandard2.0\GatewayInterface.deps.json
+D:\work\xinyaohang\Applications\GatewayInterface\bin\Debug\netstandard2.0\GatewayInterface.dll
+D:\work\xinyaohang\Applications\GatewayInterface\bin\Debug\netstandard2.0\GatewayInterface.pdb
+D:\work\xinyaohang\Applications\GatewayInterface\obj\Debug\netstandard2.0\GatewayInterface.csproj.CoreCompileInputs.cache
+D:\work\xinyaohang\Applications\GatewayInterface\obj\Debug\netstandard2.0\GatewayInterface.AssemblyInfoInputs.cache
+D:\work\xinyaohang\Applications\GatewayInterface\obj\Debug\netstandard2.0\GatewayInterface.AssemblyInfo.cs
+D:\work\xinyaohang\Applications\GatewayInterface\obj\Debug\netstandard2.0\GatewayInterface.dll
+D:\work\xinyaohang\Applications\GatewayInterface\obj\Debug\netstandard2.0\GatewayInterface.pdb
+D:\work\xinyaohang\Applications\GatewayInterface\obj\Debug\netstandard2.0\GatewayInterface.csprojResolveAssemblyReference.cache
