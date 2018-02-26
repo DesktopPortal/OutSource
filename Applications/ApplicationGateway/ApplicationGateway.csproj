@@ -19,7 +19,6 @@
     <PackageReference Include="App.Metrics.Extensions.Reporting.InfluxDB" Version="1.2.0" />
     <PackageReference Include="App.Metrics.Formatters.Json" Version="1.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
-    <PackageReference Include="XYH.Core" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +27,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="XYH.Core">
+      <HintPath>..\dll\XYH.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

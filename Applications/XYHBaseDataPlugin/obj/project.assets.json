@@ -2080,18 +2080,6 @@
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
         }
       },
-      "System.Configuration.ConfigurationManager/4.4.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Security.Cryptography.ProtectedData": "4.4.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
-        }
-      },
       "System.Console/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3157,21 +3145,6 @@
           "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
         }
       },
-      "System.Security.Cryptography.ProtectedData/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3535,19 +3508,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
-        }
-      },
-      "XYH.Core/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Configuration.ConfigurationManager": "4.4.0",
-          "System.Security.Principal.Windows": "4.4.0"
-        },
-        "compile": {
-          "lib/netcoreapp2.0/XYH.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/XYH.Core.dll": {}
         }
       },
       "ApplicationCore/1.0.0": {
@@ -5224,7 +5184,7 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "files": [
@@ -6158,25 +6118,6 @@
         "ref/xamarinwatchos10/_._",
         "system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
         "system.componentmodel.typeconverter.nuspec"
-      ]
-    },
-    "System.Configuration.ConfigurationManager/4.4.0": {
-      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
-      "type": "package",
-      "path": "system.configuration.configurationmanager/4.4.0",
-      "files": [
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Configuration.ConfigurationManager.dll",
-        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
-        "ref/net461/System.Configuration.ConfigurationManager.dll",
-        "ref/net461/System.Configuration.ConfigurationManager.xml",
-        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
-        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.4.4.0.nupkg.sha512",
-        "system.configuration.configurationmanager.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Console/4.3.0": {
@@ -8962,45 +8903,6 @@
         "system.security.cryptography.primitives.nuspec"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/4.4.0": {
-      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
-      "type": "package",
-      "path": "system.security.cryptography.protecteddata/4.4.0",
-      "files": [
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
-        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
-        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
-        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
-        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
-        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
-        "system.security.cryptography.protecteddata.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
       "sha512": "t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
       "type": "package",
@@ -10044,16 +9946,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "XYH.Core/1.0.1": {
-      "sha512": "uEq6P1A+OrIj18CVV1uk9qwnK4gK1yHpKe2nbLjER8wwfEeQOvYNctI8FdD9ZR2yOd/q0zMC3EXPkW7U19ksGg==",
-      "type": "package",
-      "path": "xyh.core/1.0.1",
-      "files": [
-        "lib/netcoreapp2.0/XYH.Core.dll",
-        "xyh.core.1.0.1.nupkg.sha512",
-        "xyh.core.nuspec"
-      ]
-    },
     "ApplicationCore/1.0.0": {
       "type": "project",
       "path": "../ApplicationCore/ApplicationCore.csproj",
@@ -10063,12 +9955,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "ApplicationCore >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.0.0",
-      "XYH.Core >= 1.0.1"
+      "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chenr\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -10077,17 +9968,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\work\\Applications\\XYHBaseDataPlugin\\XYHBaseDataPlugin.csproj",
+      "projectUniqueName": "D:\\OutSource\\Applications\\XYHBaseDataPlugin\\XYHBaseDataPlugin.csproj",
       "projectName": "XYHBaseDataPlugin",
-      "projectPath": "D:\\work\\Applications\\XYHBaseDataPlugin\\XYHBaseDataPlugin.csproj",
-      "packagesPath": "C:\\Users\\chenr\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\Applications\\XYHBaseDataPlugin\\obj\\",
+      "projectPath": "D:\\OutSource\\Applications\\XYHBaseDataPlugin\\XYHBaseDataPlugin.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\OutSource\\Applications\\XYHBaseDataPlugin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\chenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10095,15 +9986,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://server-d02/nuget": {},
+        "D:\\OutSource\\Applications\\dll": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://www.myget.org/F/aspnet-contrib/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\work\\Applications\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\work\\Applications\\ApplicationCore\\ApplicationCore.csproj"
+            "D:\\OutSource\\Applications\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "D:\\OutSource\\Applications\\ApplicationCore\\ApplicationCore.csproj"
             }
           }
         }
@@ -10117,14 +10008,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "XYH.Core": {
-            "target": "Package",
-            "version": "1.0.1"
-          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

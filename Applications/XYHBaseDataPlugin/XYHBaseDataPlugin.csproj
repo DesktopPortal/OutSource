@@ -13,11 +13,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="XYH.Core" Version="1.0.1" />
+    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+    <Reference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore">
+      <HintPath>..\dll\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Identity.Stores">
+      <HintPath>..\dll\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="XYH.Core">
+      <HintPath>..\dll\XYH.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

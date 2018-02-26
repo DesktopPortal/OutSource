@@ -1,10 +1,13 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 Applications/ApplicationCore/bin/
+Applications/ApplicationCore/obj/
 Applications/ApplicationGateway/bin/
 Applications/ApplicationGateway/obj/
 Applications/GatewayInterface/bin/
+Applications/GatewayInterface/obj/
 Applications/XYHBaseDataPlugin/bin/
+Applications/XYHBaseDataPlugin/obj/
 DesktopPortal/bin/
 
 # dependencies
